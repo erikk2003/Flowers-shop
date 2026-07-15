@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0f2f0;
+}
+.menu{
+    background-color: #758b5d;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+    
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    color: blue;
+}
+.menu ul a{
+    margin-right: 18px;
+}
+.box{
+    background-image: url("img1.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    width: 40%;
+    background-color: rgba(248,206,85,0.6);
+    font-size: 22px;
+    padding: 15px;
+}
+
+.info h1{
+    background-color: #f0f2f0;
+    margin: 60px 0 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.info p{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.rose{
+    background-image: url(rose.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rose p{
+    font-size: 30px;
+    color:black ;
+    background-color: rgba(255,15,15,0.8);
+    padding: 5px;
+}
+.structure h2{
+    text-align: center;
+    font-size: 28px;
+    margin: 50px 0 30px 0;
+}
+.structure p{
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.bouquet{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: white;
+}
+.bouquet div{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.bouquet div img{
+    width: 100%;
+    height: 100%;
+    
+}
+.bun{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0 30px 0;
+}
+.finish{
+    background-color: #758b5d;
+    padding: 15px;
+}
+.finish p{
+    color: white;
+}
